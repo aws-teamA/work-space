@@ -2,19 +2,46 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>おみくじ</title>
-  <script src="main.js"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <div>
+    <main>
+      <h1>ソフトウェア開発<br>みくじ</h1>
+      <div class="top-img">
+        <img src="img/syougatsu2_omijikuji2.png" alt="">
+      </div>
+      <button>おみくじを引く</button>
+    </main>
+    <footer>
+      <div class="info">
+        <p>このおみくじについて</p>
+        <p>|</p>
+        <p>開発者一覧</p>
+      </div>
+      <p class="">@ソフトウェア開発みくじ</p>
+    </footer>
 
-<button onclick="Omikuji(),Language(),Database(),Editor();">　おみくじを引く　</button>
-<p id="omikuji"></p>
-<p id="comment"></p>
-<p id="language"></p>
-<p id="database"></p>
-<p id="editor"></p>
+    <!-- クジ内容 -->
+    <div id="omikuzi">
+      <h3>ソフトウェア開発みくじ</h3>
+      <div class="line"></div>
+      <p>イラスト</p>
+      <p class="title">大吉</p>
+      <div class="line"></div>
+      <p class="lucky-text">リリースしたソフトウェアにバグが見つかりますが、再現性が低いためユーザーも上司も誰ひとり気付かないでしょう。見なかったことにするのが吉。</p>
+      <div class="line"></div>
+      <p>✿ ラッキー言語 ✿</p>
+      <div class="line"></div>
+      <p>✿ ラッキーデータベース ✿</p>
+      <div class="line"></div>
+      <p>✿ ラッキーエディタ ✿</p>
 
+      <button>もう一度おみくじを引く</button>
+    </div>
+  </div>
+  <script src="main.js"></script>
 </body>
 </html>
-

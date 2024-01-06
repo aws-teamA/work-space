@@ -13,7 +13,7 @@
       <div class="top-img">
         <img src="img/syougatsu2_omijikuji2.png" alt="">
       </div>
-      <button>おみくじを引く</button>
+      <button onclick="Omikuji(),Language(),Database(),Editor();">おみくじを引く</button>
     </main>
     <footer>
       <div class="info">
@@ -29,15 +29,18 @@
       <h3>ソフトウェア開発みくじ</h3>
       <div class="line"></div>
       <p>イラスト</p>
-      <p class="title">大吉</p>
+      <p class="title" id="omikuji"></p>
       <div class="line"></div>
-      <p class="lucky-text">リリースしたソフトウェアにバグが見つかりますが、再現性が低いためユーザーも上司も誰ひとり気付かないでしょう。見なかったことにするのが吉。</p>
+      <p id="comment"></p>
       <div class="line"></div>
       <p>✿ ラッキー言語 ✿</p>
+      <p id="language"></p>
       <div class="line"></div>
       <p>✿ ラッキーデータベース ✿</p>
+      <p id="database"></p>
       <div class="line"></div>
       <p>✿ ラッキーエディタ ✿</p>
+      <p id="editor"></p>
 
       <button>もう一度おみくじを引く</button>
     </div>

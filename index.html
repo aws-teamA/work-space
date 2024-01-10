@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>おみくじ</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <div>
     <main>
@@ -13,7 +15,8 @@
       <div class="top-img">
         <img src="img/syougatsu2_omijikuji2.png" alt="">
       </div>
-      <button onclick="Omikuji(),Language(),Database(),Editor();">おみくじを引く</button>
+      <button id="openModalBtn" onclick="Omikuji(),Language(),Database(),Editor();">おみくじを引く</button>
+      <!-- fooを呼び出すことを提案 -->
     </main>
     <footer>
       <div class="info">
@@ -51,4 +54,5 @@
   </div>
   <script src="main.js"></script>
 </body>
+
 </html>

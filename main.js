@@ -101,23 +101,5 @@ function editor() {
 }
 
 
-// // モーダルウィンドウ
-// // モーダルウィンドウを開くボタン
-// var openModalBtn = document.getElementById("openModalBtn");
 
-// // モーダルウィンドウ
-// var modal = document.getElementById("myModal");
-
-// // モーダルウィンドウを閉じるボタン
-// var closeModalBtn = document.getElementById("closeModalBtn");
-
-// // ボタンがクリックされたときの処理
-// openModalBtn.onclick = function () {
-//   modal.style.display = "block";
-// };
-
-// // モーダルウィンドウの閉じるボタンがクリックされたときの処理
-// closeModalBtn.onclick = function () {
-//   modal.style.display = "none";
-// };
 

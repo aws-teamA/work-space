@@ -59,17 +59,16 @@ footer {
   position: fixed;
   z-index: 1;
   top: 0;
-  height: 98%;
+  height: 90%;
   width: 280px;
   overflow: auto;
   background-color: #fff;
-  margin: 1% 0;
-  padding: 50px 10px;
+  padding: 2% 1%;
 
   border: solid 1px #ff0000;
 	outline: solid 5px #ff0000;
 	outline-offset: 2px;
-	margin: 7px;
+	margin: 3% 0;
 }
 
 .line {

@@ -64,6 +64,7 @@ footer {
   overflow: auto;
   background-color: #fff;
   margin: 1% 0;
+  padding: 50px 10px;
 
   border: solid 1px #ff0000;
 	outline: solid 5px #ff0000;
@@ -73,7 +74,6 @@ footer {
 
 .line {
   border-top: 1px solid #dc3545;
-  width: 90%;
   margin: 0 auto;
 }
 
@@ -85,6 +85,11 @@ footer {
 .lucky-text {
   width: 80%;
   margin: 20px auto;
+}
+
+#comment {
+  width: 95%;
+  margin: 15px auto;
 }
 
 /* ============ */

@@ -2,6 +2,9 @@ const OMIKUJI = ["大吉", "中吉", "小吉", "吉", "末吉", "凶"];
 
 function Omikuji() {
 
+  document.getElementById('omikuzi').style.display = 'block';
+  // おみくじを表示
+
   const random = OMIKUJI[Math.floor(Math.random() * OMIKUJI.length)];
   // random変数にOMIKUJIで定義している配列をラムダムに入れる
   document.getElementById("omikuji").innerHTML = random;
@@ -64,4 +67,8 @@ function Item(){
   Language();
   Database();
   Editor();
+}
+
+function Hidden() {
+  document.getElementById('omikuzi').style.display = 'none';
 }

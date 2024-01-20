@@ -58,16 +58,21 @@ footer {
   display: none;
   position: fixed;
   z-index: 1;
-  top: 0;
+  top: 5%;
   width: 280px;
   overflow: auto;
   background-color: #fff;
   padding: 2% 1%;
 
+  left: 50%; /* 中央に配置するために追加 */
+  transform: translateX(-50%); /* 中央に配置するために追加 */
+  max-height: 90vh; /* 最大の高さを設定 */
+  overflow-y: auto; /* 縦方向にスクロール可能にする */
+
   border: solid 1px #ff0000;
 	outline: solid 5px #ff0000;
 	outline-offset: 2px;
-	margin: 7% 0;
+	/* margin: 7% 0; */
 }
 
 .line {
